@@ -1,9 +1,9 @@
-# Go by Example
+# Go por Exemplos
 
 Content and build toolchain for [Go by Example](https://gobyexample.com),
 a site that teaches Go via annotated example programs.
 
-### Overview
+### Visão geral
 
 The Go by Example site is built by extracting code and
 comments from source files in `examples` and rendering
@@ -16,7 +16,7 @@ The built `public` directory can be served by any
 static content system. The production site uses S3 and
 CloudFront, for example.
 
-### Building
+### Construção
 
 [![Build Status](https://travis-ci.com/mmcgrana/gobyexample.svg "Travis CI status")](https://travis-ci.com/mmcgrana/gobyexample)
 
@@ -34,7 +34,7 @@ To build continuously in a loop:
 $ tools/build-loop
 ```
 
-### Publishing
+### Publicação
 
 To upload the site:
 
@@ -45,7 +45,7 @@ $ export AWS_SECRET_ACCESS_KEY=...
 $ tools/upload
 ```
 
-### License
+### Licença
 
 This work is copyright Mark McGranaghan and licensed under a
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
@@ -54,7 +54,7 @@ The Go Gopher is copyright [Renée French](http://reneefrench.blogspot.com/) and
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
 
-### Translations
+### Traduções
 
 Contributor translations of the Go by Example site are available in:
 
@@ -67,7 +67,7 @@ Contributor translations of the Go by Example site are available in:
 * [Spanish](http://goconejemplos.com) by the [Go Mexico community](https://github.com/dabit/gobyexample)
 * [Ukrainian](http://gobyexample.com.ua/) by [butuzov](https://github.com/butuzov/gobyexample)
 
-### Thanks
+### Agradecimentos
 
 Thanks to [Jeremy Ashkenas](https://github.com/jashkenas)
 for [Docco](http://jashkenas.github.com/docco/), which
